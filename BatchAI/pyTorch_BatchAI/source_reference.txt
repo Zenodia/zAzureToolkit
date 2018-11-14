@@ -1,0 +1,6 @@
+how to fill in the configuration.json file : 
+https://github.com/Azure/BatchAI/blob/master/recipes/Preparation.md
+
+
+this example is adopted from the original Microsoft github repo for pytorch.
+https://github.com/Azure/BatchAI/blob/master/recipes/PyTorch/PyTorch-GPU-Distributed-Gloo/PyTorch-GPU-Distributed-Gloo.ipynb
