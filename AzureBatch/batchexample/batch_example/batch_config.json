@@ -1,0 +1,23 @@
+{
+    "os":"linux",
+    "vm_publisher":"microsoft-ads",
+    "vm_offer":"linux-data-science-vm",
+    "vm_sku": "linuxdsvm",
+    "version": "latest",
+    "_POOL_NODE_COUNT": "1",
+    "_POOL_VM_SIZE": "BASIC_A1",
+    "_BATCH_ACCOUNT_NAME": "your_batch_acc_name",
+    "_BATCH_ACCOUNT_KEY": "your_batch_acc_key",
+    "_BATCH_ACCOUNT_URL": "batch_acc_url",
+    "_STORAGE_ACCOUNT_NAME": "storage_acc_name",
+    "_APP_STORAGE_CONTAINER": "application",
+    "_INPUT_STORAGE_CONTAINER": "torchin",
+    "_OUTPUT_STORAGE_CONTAINER": "torchout",
+    "_STORAGE_ACCOUNT_KEY": "storage_acc_key",
+    "_POOL_ID": "torch_rnn_pool",
+    "_JOB_ID": "ModelRun001",
+    "_APP_NAME": "rnn_ts",
+    "_APP_VERSION": "0.0.1",
+    "_APP_FILE": "rnn_ts.py",
+    "_EXPECTED_MODEL_RUN_IN_MINUTES": 20
+}

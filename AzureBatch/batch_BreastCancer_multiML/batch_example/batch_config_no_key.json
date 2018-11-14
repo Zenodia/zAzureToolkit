@@ -1,0 +1,23 @@
+{
+    "os":"linux",
+    "vm_publisher":"microsoft-ads",
+    "vm_offer":"linux-data-science-vm",
+    "vm_sku": "linuxdsvm",
+    "version": "latest",
+    "_POOL_NODE_COUNT": "1",
+    "_POOL_VM_SIZE": "BASIC_A1",
+    "_BATCH_ACCOUNT_NAME": "bloodbatch",
+    "_BATCH_ACCOUNT_KEY": "your_batch_acc_key",
+    "_BATCH_ACCOUNT_URL": "your_batch_acc_url",
+    "_STORAGE_ACCOUNT_NAME": "your_storage_acc_name",
+    "_APP_STORAGE_CONTAINER": "your_storage_container_name",
+    "_INPUT_STORAGE_CONTAINER": "container_folder_input",
+    "_OUTPUT_STORAGE_CONTAINER": "container_folder_out",
+    "_STORAGE_ACCOUNT_KEY": "your_storage_acc_key",
+    "_POOL_ID": "bc_pool001",
+    "_JOB_ID": "ModelRun001",
+    "_APP_NAME": "breast_cancer_multimodels",
+    "_APP_VERSION": "0.0.3",
+    "_APP_FILE": "bc_modelstrainval.py",
+    "_EXPECTED_MODEL_RUN_IN_MINUTES": 20
+}
