@@ -1,0 +1,32 @@
+{
+    "subscription_id": "your_azure_subscription_key",
+    "aad_client_id": "your_client_id",
+    "aad_secret": "your_client_secret",
+    "aad_tenant": "your_tenant_id",
+    "location": "eastus",
+    "base_url": "",
+    "resource_group": "your_resource_group",
+    "workspace": "workspace_of_batchai",
+    "storage_account" : {
+        "name": "storage_acc_name",
+        "key": "storage_acc_key"
+    },
+    "admin_user" : {
+        "name": "admin_user_name",
+        "password": "give_a_password_of_choice",
+        "ssh_public_key": "generate_a_public_key"
+    },
+
+    "keyvault_id": "",
+
+    "container_registry" : {
+
+        "user": "",
+
+        "password": "",
+
+        "secret_url": ""
+
+    }
+
+}

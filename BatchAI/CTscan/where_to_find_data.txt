@@ -1,0 +1,2 @@
+go to this url and download the dataset from kaggle
+https://www.kaggle.com/jtoday/cnn-with-keras/data
