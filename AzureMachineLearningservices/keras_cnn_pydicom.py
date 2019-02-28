@@ -30,6 +30,14 @@ def get_data(dicom_dir):
     #returning a numpy array of shape 100,256,256
     return data
 
+
+
+
+
+
+
+
+
 if __name__=='__main__': 
     
     parser=argparse.ArgumentParser()
@@ -38,10 +46,10 @@ if __name__=='__main__':
     #parser.add_argument('--reload', help='path to where you save the previous model and use it to continue training')
     parser.add_argument('--save_model', help='path to where you want to save the model')
     args=parser.parse_args()
-    os.makedirs(args.data,exist_ok=True)#tip1 - makedirs , since the mounting is not a physical mounting , you need to make sure you create the relative directory from within python to make it work
+    os.makedirs(args.data,exist_ok=True)
     print(os.path.expandvars(args.data))
     
-    X=get_data(args.data+'/ChestCTscan/dicom/')#tip2 -if you have a sub directory from within the mounting point , you will need to specify that by hard-coded path
+    X=get_data(args.data+'/ChestCTscan/dicom/')
     X=np.moveaxis(X, -1, 0)
     print("check the dicom file shape should be 100, 256,256", X.shape)
     
