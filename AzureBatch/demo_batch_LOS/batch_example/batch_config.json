@@ -1,0 +1,23 @@
+{
+    "os":"linux",
+    "vm_publisher":"microsoft-ads",
+    "vm_offer":"linux-data-science-vm",
+    "vm_sku": "linuxdsvm",
+    "version": "latest",
+    "_POOL_NODE_COUNT": "5",
+    "_POOL_VM_SIZE": "BASIC_A1",
+    "_BATCH_ACCOUNT_NAME": "bloodbatch",
+    "_BATCH_ACCOUNT_KEY": "i8+ZY5tLPJTOxr+TufEC1Qxjy+ixaAgoY7i5mRw6S6K53N2xqmyvzekgFLAcCdtcF1x3kALkBxTtSaFyT6YKbg==",
+    "_BATCH_ACCOUNT_URL": "https://bloodbatch.westeurope.batch.azure.com",
+    "_STORAGE_ACCOUNT_NAME": "bloodimg",
+    "_APP_STORAGE_CONTAINER": "application",
+    "_INPUT_STORAGE_CONTAINER": "losdata",
+    "_OUTPUT_STORAGE_CONTAINER": "losout",
+    "_STORAGE_ACCOUNT_KEY": "xg9smZ0BXpDJ/Ok8FxxxpACn5UIqtN/W3mj1uNk2A/nRSPAXiuVLdUF+ivEb3OkCLnkaqAm51zFXAam3kPrbJg==",
+    "_POOL_ID": "los_pool1",
+    "_JOB_ID": "ModelRun001",
+    "_APP_NAME": "los",
+    "_APP_VERSION": "0.0.1",
+    "_APP_FILE": "los_multimodels.py",
+    "_EXPECTED_MODEL_RUN_IN_MINUTES": 30
+}
